@@ -1,42 +1,64 @@
-# Study Session Planner
+# SWYNEX Java Fundamentals Application — Study Session Planner
 
-A console-based Java application that helps users organize and manage their study sessions.
+## 📌 About the Project
 
-## Features
+The **Study Session Planner** is a console-based Java application developed as part of Task 1 of my SWYNEX internship. It helps users organize and manage their study sessions while demonstrating core Java programming concepts.
 
-- Add new study sessions
-- View all study sessions
+## ✨ Features
+
+- Add and view study sessions
 - Search sessions by ID
-- Update session details
-- Delete study sessions
+- Update and delete sessions
 - Mark sessions as completed
 - View pending sessions
-- Display study statistics
+- Display study statistics, including completed sessions and total study duration
 - Validate user input and handle exceptions
 
-## Technologies Used
+## 🛠️ Technologies and Concepts
 
-- Java
-- Object-Oriented Programming (OOP)
-- Collections (`ArrayList`)
-- Exception Handling
-- Enums
-- `LocalDate`
-- `Scanner`
+- **Java** — Core programming and OOP concepts
+- **Collections** — `ArrayList` for managing study session objects
+- **Exception Handling** — Handling invalid inputs and errors
+- **Enums** — Managing priority and status values
+- **LocalDate** — Handling session dates
+- **Scanner** — Reading console input
 
-## How to Run
+## 📂 Project Structure
 
-1. Clone or download this repository.
-2. Open the project folder in VS Code.
-3. Open the terminal and navigate to the `src` folder.
-4. Compile the Java files:
+```text
+SWYNEX-Java-Fundamentals-Application/
+├── src/
+│   ├── Main.java
+│   ├── StudySession.java
+│   ├── Priority.java
+│   └── Status.java
+├── .gitignore
+└── README.md
+```
 
-   `javac *.java`
+## ▶️ How to Run
 
-5. Run the application:
+**Prerequisite:** Install the Java Development Kit (JDK).
 
-   `java Main`
+1. Clone or download the repository.
+2. Open the terminal inside the `src` directory.
+3. Compile the Java files:
 
-## Project Purpose
+   ```bash
+   javac *.java
+   ```
 
-This project was developed as part of a Java internship task to practice Java fundamentals, object-oriented programming, collections, and exception handling.
+4. Run the application:
+
+   ```bash
+   java Main
+   ```
+
+## 📚 Learning Outcomes
+
+This project provided practical experience with object-oriented programming, collections, exception handling, input validation, enums, and date handling. It also helped me practise organizing Java source files and using GitHub for version control.
+
+## 👩‍💻 Developed By
+
+**Kavyaa**  
+SWYNEX Internship — Task 1: Java Fundamentals Application
